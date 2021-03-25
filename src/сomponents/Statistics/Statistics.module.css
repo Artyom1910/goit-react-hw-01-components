@@ -1,0 +1,21 @@
+.item {
+  display: grid;
+  align-items: center;
+  height: 50px;
+  margin-left: 10px;
+  
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+  width: 250px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid black;
+}

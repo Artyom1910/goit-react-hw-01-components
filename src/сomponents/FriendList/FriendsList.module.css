@@ -1,0 +1,25 @@
+.friendList {
+  width: 250px;
+  padding: 10px;
+  margin-left: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.item {
+ display: flex;
+ margin-bottom: 5px;
+ height: 65px;
+ align-items: center;
+}
+
+.status {
+  font-size: 20px;
+}
+
+.name {
+  margin: 0;
+  font-weight: 700;
+  margin-left: 5px;
+}

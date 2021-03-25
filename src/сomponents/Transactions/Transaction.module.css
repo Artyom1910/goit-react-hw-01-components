@@ -1,0 +1,27 @@
+.table {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.table th {
+  width: 200px;
+  padding: 5px;
+ 
+
+  color: white;
+  background-color:blue;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.table td {
+  padding: 5px 10px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.table tbody tr:nth-child(odd) {
+  background: grey;
+}
+.table tbody tr:nth-child(even) {
+  background:lightblue;
+}

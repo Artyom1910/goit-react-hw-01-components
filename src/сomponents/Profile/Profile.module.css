@@ -1,0 +1,44 @@
+.profile {
+  width: 250px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px 20px;
+  padding: 10px;
+ border: 1px solid black;
+}
+
+.name {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.location {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.tag {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.item {
+  display: inline-grid;
+  width: 100px;
+}
+
+.quantity {
+    font-weight: 700;
+}

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "./FriendsList.module.css";
+import styles from "../FriendItem/FriendsItem.module.css";
 
 const FriendItem = ({ avatar, name, isOnline }) => (
     <div className={styles.item}>

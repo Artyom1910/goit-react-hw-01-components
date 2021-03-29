@@ -3,10 +3,10 @@ import Profile from "./сomponents/Profile/Profile"
 import Statistics from "./сomponents/Statistics/Statistics";
 import FriendList from "./сomponents/FriendList/FriendList";
 import TransactionHistory from "./сomponents/Transactions/TransactionHistory";
-import user from "./сomponents/Profile/user.json";
-import statisticalData from "./сomponents/Statistics/statistical-data.json";
-import friends from "./сomponents/FriendList/friends.json";
-import transactions from "./сomponents/Transactions/transactions.json";
+import user from "./сomponents/json/user.json";
+import statisticalData from "./сomponents/json/statistical-data.json";
+import friends from "./сomponents/json/friends.json";
+import transactions from "./сomponents/json/transactions.json";
 
 const App = () => {
     return (

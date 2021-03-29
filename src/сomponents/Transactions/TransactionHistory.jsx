@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import styles from "./Transaction.module.css";
 
 const TransactionHistory = ({ items }) => {
@@ -21,6 +22,12 @@ const TransactionHistory = ({ items }) => {
       </tbody>
     </table>
   );
+};
+
+TransactionHistory.propTypes = {
+  type: PropTypes.string,
+  amount: PropTypes.number,
+  currency: PropTypes.string,
 };
 
 export default TransactionHistory;

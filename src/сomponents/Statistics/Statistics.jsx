@@ -14,8 +14,8 @@ const color = function randomColor() {
 };
 
 const Statistics = ({title, stats}) => (
-<section className={styles.title}>
-  <h2>{title}</h2>
+<section className={styles.statistics}>
+  {title && <h2 className={styles.title}>{title}</h2>}
 
    <ul className={styles.list}>
      {stats.map(({ id, label, percentage }) => (
